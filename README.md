@@ -1,15 +1,17 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: Operation Filter List on Insights Page Is Cut Off at the Bottom
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1
+**Student:** Qimin Wu
+**Issue:** https://github.com/graphql-hive/console/issues/3816
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it is a beginner-friendly bug with a clear problem and expected result. The issue affects the user interface, which matches my interest in JavaScript, HTML, and CSS. I also wanted to gain experience contributing to an open-source project and learn how to investigate and fix a real bug in a production application.
+
+Another reason I chose this issue is that the scope appears manageable for a first contribution. The issue description clearly explains the problem, and the project maintainers labeled it as a good first issue. I hope to learn more about debugging frontend issues, understanding a larger codebase, and working through the open-source contribution process.
 
 ---
 
@@ -17,19 +19,19 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+On the Insights page, the operation filter dropdown list is cut off at the bottom. Because of this, users cannot see all available items in the filter list.
 
 ### Expected Behavior
 
-[What should happen?]
+The operation filter dropdown should display all available items. If the list is longer than the available space, users should be able to scroll and access every option.
 
 ### Current Behavior
 
-[What actually happens?]
+Part of the dropdown list is hidden because of an overflow or layout issue. Some items cannot be seen or selected.
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+Based on the issue description, the affected components are likely the Insights page UI, the operation filter dropdown component, and the related CSS styling that controls layout, height, and overflow behavior.
 
 ---
 
@@ -37,19 +39,17 @@
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+To be completed in Phase II.
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+To be completed in Phase II.
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+* **Commit showing reproduction:** TBD
+* **Screenshots/logs:** TBD
+* **My findings:** TBD
 
 ---
 
@@ -57,102 +57,75 @@
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+To be completed in Phase II.
 
 ### Proposed Solution
 
-[High-level description of your fix approach]
+To be completed in Phase II.
 
 ### Implementation Plan
 
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** Fix the operation filter dropdown so all options are visible and accessible.
 
-**Match:** [What similar patterns/solutions exist in the codebase?]
+**Match:** Review existing dropdown and overflow handling patterns used elsewhere in the application.
 
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+**Plan:**
 
-**Implement:** [Link to your branch/commits as you work]
+1. Set up the project locally.
+2. Reproduce the issue on the Insights page.
+3. Identify the component responsible for the operation filter.
+4. Investigate CSS and layout rules affecting the dropdown.
+5. Implement a fix.
+6. Verify that all options are visible and selectable.
+7. Run relevant tests and submit a pull request.
 
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
+**Implement:** To be completed in Phase III.
 
-**Evaluate:** [How will you verify it works?]
+**Review:** Ensure the solution follows project contribution guidelines and does not introduce UI regressions.
+
+**Evaluate:** Confirm that all filter options are visible and the dropdown behaves correctly across different screen sizes.
 
 ---
 
 ## Testing Strategy
 
-### Unit Tests
-
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Test case 3: [Description]
-
-### Integration Tests
-
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
-
-### Manual Testing
-
-[What you tested manually and results]
+To be completed in Phase III.
 
 ---
 
 ## Implementation Notes
 
-### Week [X] Progress
+### Week 1 Progress
 
-[What you built this week, challenges faced, decisions made]
-
-### Week [Y] Progress
-
-[Continue documenting as you work]
-
-### Code Changes
-
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+Selected the issue, reviewed the issue description, commented on the GitHub issue, and began exploring the project structure.
 
 ---
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** TBD
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** TBD
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+* TBD
+
+**Status:** Not Started
 
 ---
 
 ## Learnings & Reflections
 
-### Technical Skills Gained
-
-[What you learned technically]
-
-### Challenges Overcome
-
-[What was hard and how you solved it]
-
-### What I'd Do Differently Next Time
-
-[Reflection on your process]
+To be completed throughout the project.
 
 ---
 
 ## Resources Used
 
-- [Link to helpful documentation]
-- [Tutorial or Stack Overflow post that helped]
-- [GitHub issues or discussions that helped]
+* GraphQL Hive GitHub Repository
+* GraphQL Hive Contribution Documentation
+* GitHub Documentation
+* CodePath AI301 Materials
